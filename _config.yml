@@ -1,0 +1,13 @@
+exclude:
+- .ruby-version
+- .ruby-gemset
+- Gemfile
+- Gemfile.lock
+- README.md
+- CNAME
+- package.json
+- build.js
+- node_modules
+
+sass:
+  style: :nested

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>TTYPlay.js</title>
+
+  <!-- TTYPlay.js styles and javascripts -->
+  <link rel="stylesheet" type="text/css" media="screen, projection" href="/assets/stylesheets/ttyplay.css" />
+  <script type="text/javascript" src="/assets/javascripts/ttyplay-with-dependencies.js"></script>
+
+  <!-- App styles and javascripts -->
+  <link rel="stylesheet" type="text/css" media="screen, projection" href="/assets/stylesheets/main.css" />
+  <script type="text/javascript" src="/assets/javascripts/main.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="settings">
+      <div class="control">
+        <label for="cols">Columns:</label>
+        <input type="text" id="cols" value="80" />
+      </div>
+      <div class="control">
+        <label for="rows">Rows:</label>
+        <input type="text" id="rows" value="25" />
+      </div>
+      <div class="control" id="drop-container">
+        <a href="javascript:;" id="open-file-trigger">Drag file here or click to open</a>
+        <input type="file" id="open-file" />
+      </div>
+    </div>
+    <br style="clear: both;" />
+    <div id="ttyplay" class="ttyplay"></div>
+
+    <footer>
+      <p>Copyright &copy; 2015 <a href="https://github.com/tzvetkoff">Latchezar Tzvetkoff</a></p>
+      <p>
+        <a href="https://github.com/ttyplay/ttyplay.js">TTYPlay.js source</a>
+        |
+        <a href="https://github.com/ttyplay/ttyplay.github.io">Site source</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
