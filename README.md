@@ -2,4 +2,4 @@
 
 TTYPlay.js site & app.
 
-[Here, here!](http://ttyplay.org/)
+[Here, here!](http://ttyplayjs.github.io/)
